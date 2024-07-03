@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body.html{
+    overflow: hidden;
+}
+.traffic{
+    height: fit-content;
+}
+.blue{
+    height:46vh;
+    width: 1550px;
+    position: relative;
+}
+.house{
+    position: absolute;
+    top:70px;
+    margin-left: -1500px;
+    padding-left:5px;
+}
+.plane1{
+    position: absolute;
+    top: 1px;
+    margin-left:5px;
+}
+.plane2{
+    position: absolute;
+    top:1px;
+    left: 800px;
+}
+/* .bird1{
+    position: absolute;
+    top: 5px;
+    padding-left:1000
+} */
+.bird2{
+    position: absolute;
+    top: 6px;
+    width: 200px;
+    padding-left:3000px;
+}
+
+.grass{
+    background-color: green;
+    height: 40px;
+    width: 1550px;
+    position: relative;
+}
+.woman{
+    position: absolute;
+    height: 80px;
+    margin-top: 5px;
+}
+.man{
+    position: absolute;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 1500px;
+}
+.road{
+    background-color: gray;
+    height: 40vh;
+    position: relative;
+    width: 1550px;
+}
+.one{
+    position: absolute;
+    height: 120px;
+    width: 1550px;
+}
+.dd{
+    position: absolute;
+}
+.dd2{
+    position: absolute;
+    left: 1300px;
+}
+.two{
+    position: absolute;
+    height: 120px;
+    width: 1550px;
+    top: 225px;
+}
+.light{
+    position: absolute;
+    width: 200px;
+    left: 100px;
+}
+.light2{
+    position: absolute;
+    width: 300px;
+    left: 400px;
+}
+.light4{
+    position: absolute;
+    width: 300px;
+    left: 1100px;
+}
+.light3{
+    position: absolute;
+    width: 200px;
+    left: 800px;
+}
+
+.sportcar2{
+    position: absolute;
+    bottom: 0px;
+    animation: sportcar2 1s ease-in infinite;
+    /* transform: translateX(-8000px); */
+}
+@keyframes sportcar2{
+    from{
+        transform: translate(-200px, 0);
+    }
+    to{
+        transform: translate(1000%, 0);
+    }
+}
+.plane2{
+    position: absolute;
+    top: 0;
+    animation: plane2 1s infinite;
+}
+@keyframes plane2{
+    from{
+        transform: translate(1000px, 0);
+    }
+    to{
+        transform: translate(5000, 0);
+    }
+}
+.sportcar3{
+    position: absolute;
+    bottom: 0px;
+    animation: sportcar3 3s infinite;
+}
+@keyframes sportcar3{
+    from{
+        transform: translate(-300px, 0);
+    }
+    to{
+        transform: translate(1700%, 0);
+    }
+}
+.sportcar{
+    position: absolute;
+    bottom: 0px;
+    animation: sportcar 4s infinite;
+    width: 200px;
+}
+@keyframes sportcar{
+    from{
+        transform: translate(-200px, 0);
+    }
+    to{
+        transform: translate(1900%, 0);
+    }
+}
+.woman{
+    position: absolute;
+    top: 0px;
+    animation: woman 8s infinite;
+    width: 200px;
+    height: 100px;
+}
+@keyframes woman{
+    from{
+        transform: translate(-200px, 0);
+    }
+    to{
+        transform: translate(1900%, 0);
+    }
+}
+.dd{
+    position: absolute;
+    top: 0;
+    animation: dd 1s ease-in infinite;
+
+}
+@keyframes dd{
+    from{
+        transform: translate(2000px, 0);
+    }
+    to{
+        transform: translate(4000, 0);
+    }
+}
+.dd2{
+    position: absolute;
+    top: 0px;
+    animation: dd2 2s ease-in infinite;
+
+}
+@keyframes dd2{
+    from{
+        transform: translate(500px, 0);
+    }
+    to{
+        transform: translate(-3000, 0);
+    }
+}
